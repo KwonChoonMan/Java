@@ -72,9 +72,23 @@
     - static
       객체를 만들지 않고 공유하는 필드나 메소드를 지정 
       static은 객채없이도 사용이 가능하다(new 하기전에 사용이 가능하다)
-      staitc은 this를 사용할 수 없다 
+      staitc은 this를 사용할 수 없다
+      -static은 static끼리만 접근할 수 있다  
+   - 엔티티 클래스 : 값을 저장하는 클래스 
+     작업 클래스 : 전부 static  method 
+     -
     
     7. 디자인 패턴 : Builder
+    - 개발 중에 자주 만나는 문제와 그 해결책을 정의해놓은 것 
+    -Builder
+    객체를 생성의 어려움을 덜어준다 -> lombok
+     class 아이어면 {
+        private String 팔;
+        private String 다리;
+        private String 날개;
+        private String 두뇌 ;
+     } 
+      아이어맨 man = new 아이어맨("만능다리","만능두뇌","만능팔","만능날개");
     
     8. 디자인 패턴 : Singleton
     
