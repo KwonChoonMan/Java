@@ -17,7 +17,7 @@ public class GuestBookService {
 		for(GuestBook gb:list) {
 			if(gb.getGno()==gno) {
 				return gb;
-			}
+			}  
 		}
 		return null;
 	}
